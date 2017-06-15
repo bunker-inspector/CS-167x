@@ -107,18 +107,6 @@ void printHelp() {
 
 void keyboard(unsigned char key,int x,int y) {
 	switch(key) {
-		case 'a':
-			Transform::left(amount,eye,up);
-			break;
-		case 'w': 
-			Transform::up(amount,eye,up);
-			break;
-		case 's': 
-			Transform::left(-amount,eye,up);
-			break;
-		case 'd':
-			Transform::up(-amount,eye,up);
-			break;
 		case '+':
 			amount++;
 			std::cout << "amount set to " << amount << "\n";

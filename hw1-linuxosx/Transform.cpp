@@ -3,8 +3,6 @@
 
 #include "Transform.h"
 
-#include <iostream>
-
 const float DEG2RAD = pi/180.00; 
 
 //Please implement the following functions:
