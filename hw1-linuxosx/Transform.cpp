@@ -13,8 +13,6 @@ const float DEG2RAD = pi/180.00;
 mat3 Transform::rotate(const float degrees, const vec3& axis) {
 	const float angle = degrees * DEG2RAD;
 
-	std::cout << angle << std::endl;
-
 	return cos(angle) * mat3(1, 0, 0, 
 							 0, 1, 0,
 							 0, 0, 1) + 
